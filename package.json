@@ -1,0 +1,42 @@
+{
+  "name": "express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic setup for Node api using Express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "ghazaltaimur",
+  "contributors": [
+    {
+      "email": "ghazaltaimur27@gmail.com",
+      "name": "Ghazal Ehsan",
+      "url": "https://github.com/ghazaltaimur13"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2"
+  },
+  "keywords": [
+    "api",
+    "expressjs",
+    "nodejs",
+    "backend",
+    "server",
+    "node server"
+  ],
+  "bin": {
+    "create-express-boilerplate": "bin/installer.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
